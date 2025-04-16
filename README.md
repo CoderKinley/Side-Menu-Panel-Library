@@ -5,7 +5,6 @@
 To get the DLL package from the repository:
 1. Navigate to [https://github.com/CoderKinley/Side-Menu-Panel-Library](https://github.com/CoderKinley/Side-Menu-Panel-Library)
 2. Download the Zipfile including `Lib` and `LeftMenuPanel.dll`
-3. Alternatively, you can clone the repository and navigate to the `/bin/Release` folder
 
 ### Step 1: Organize Your Library Files
 1. Create a dedicated folder in your project (recommended):
