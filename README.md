@@ -1,5 +1,13 @@
-## Installatio
+## Installation
 # Adding a DLL Reference - Detailed Steps
+
+## Downloading from GitHub
+To get the DLL package from the repository:
+1. Navigate to [https://github.com/CoderKinley/Side-Menu-Panel-Library](https://github.com/CoderKinley/Side-Menu-Panel-Library)
+2. Click on the "Releases" section in the right sidebar (or navigate to the Releases page)
+3. Download the latest release of `LeftMenuPanel.dll`
+4. Alternatively, you can clone the repository and navigate to the `/bin/Release` folder
+
 ### Step 1: Organize Your Library Files
 1. Create a dedicated folder in your project (recommended):
    * Right-click on your project in Solution Explorer
@@ -36,7 +44,7 @@ After adding the reference, you can modify its properties:
 ### Step 4: Using the Library in Code
 1. Add the required namespace at the top of your code files:
    ```csharp
-   using LibraryNamespace;  // Replace with the actual namespace of the library
+   using LeftMenuPanelLibrary;  // The namespace for the Side Menu Panel Library
    ```
 2. If you're unsure about the namespace:
    * Use Object Browser (View → Object Browser) to explore the DLL
@@ -52,8 +60,3 @@ After adding the reference, you can modify its properties:
 - **Missing dependencies**: Some DLLs require additional libraries; check documentation
 - **Version conflicts**: Make sure the DLL version is compatible with your .NET version
 - **Reference not working**: Try restarting Visual Studio after adding references
-### Option 2: Manual DLL Reference
-
-1. Download the `LeftMenuPanel.dll` file
-2. In Visual Studio, right-click on your project's References
-3. Select "Add Reference..." and browse to the downloaded DLL
