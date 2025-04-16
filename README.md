@@ -32,26 +32,18 @@ To get the DLL package from the repository:
 4. Click `Add` or `Add Reference...`
 5. Follow the same browsing steps as Method A
 
-### Step 3: Set Reference Properties (Optional but Recommended)
+### Step 4: Set Reference Properties (Optional but Recommended)
 After adding the reference, you can modify its properties:
 1. Click on the newly added reference in Solution Explorer
 2. In the Properties window (F4):
    * Set `Copy Local` to `True` (ensures the DLL is copied to your output directory)
    * Verify that `Specific Version` is set appropriately for your needs
 
-### Step 4: Using the Library in Code
+### Step 5: Using the Library in Code
 1. Add the required namespace at the top of your code files:
    ```csharp
    using LeftMenuPanelLibrary;  // The namespace for the Side Menu Panel Library
    ```
-2. If you're unsure about the namespace:
-   * Use Object Browser (View → Object Browser) to explore the DLL
-   * Or try an IDE like JetBrains dotPeek to inspect the DLL contents
-
-### Step 5: Check Build Configuration
-1. Make sure the DLL is compatible with your project's target framework
-2. For platform-specific DLLs, ensure your project's platform target matches (x86, x64, or Any CPU)
-3. Build your project to verify the reference is working correctly
 
 ### Troubleshooting Common Issues
 - **"Could not load file or assembly..."** error: Ensure the DLL and all its dependencies are accessible
